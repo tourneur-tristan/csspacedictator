@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "8bit";
+  src: url("8bit.ttf");
+}
+
+@font-face {
+  font-family: "maskey";
+  src: url("8bitmaskey.ttf");
+
+}
+body{
+  padding:0;
+  margin:0;
+  font-family:helvetica;
+  }
+
+.clearE{
+  clear:both;
+}
+header p {
+  margin:0;
+  padding:0;
+  color:white;
+  font-family: "8bit";
+  font-size: 28px;
+}
+header{
+  width:100%;
+  text-align:center;
+  height:40px;
+  background-color:#7f8c8d;
+}
+.global1{
+  width:100%;
+  height:100px;
+  float:left;
+}
+.globalLeft{
+  width:30%;
+  height:600px;
+  float:left;
+  background:#9b59b6;
+  font-family:"maskey";
+  font-size: 15px;
+  color: white;
+}
+.globalRight{
+  width:70%;
+  height:600px;
+  float:left;
+  display:inline-block;
+  background-color:#525252;
+  font-family: "8bit";
+  font-size: 14px;
+}
+.buttonEnergy{
+  margin-left:40%;
+  margin-top:250px;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.displayEnergy{
+  text-align:center;
+}
+.spritevaisseau{
+  float: right;
+padding-top: 200px;
+padding-right: 150px;
+}
+
+.energyButtonSkin{

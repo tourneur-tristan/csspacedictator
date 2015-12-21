@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <script src="js/varDeclare.js"></script>
+  <script src="js/displayEnergy.js"></script>
+  <script src="js/funcButtonEnergy.js"></script>
+  <script src="js/autoEPS.js"></script>
+
+  <script src="js/upgradeClick.js"></script>
+  <script src="js/upgrade1.js"></script>
+  <script src="js/upgrade2.js"></script>
+  <meta charset="UTF-8">
+  <title>Space Dictator</title>
+</head>
+<body onload="autoEPS();displayEnergyAuto()">
+<header><p>space dictator</p></header>
+<div class="clearE"></div>
+<div class="global1">
+  <div class="globalLeft">
+    UPGRADES
+    <div class="upgradeClick">
+      <p class="upgradeName">Upgrade Click</p>
+      <p class="upgradeCostDescription">Costs : <p id="costUpgradeClickHTML">50</p></p>
+      <p class="upgradeDescription">Increase your ENERGY output by 1 per click</p>
+      <button onclick="upgradeClickFunc()">UPGRADE THE CLICK</button>
+    </div>
+    <div class="upgrade1">
+      <p class="upgradeName">Coal reactor</p>
+      <p class="upgradeCostDescription">Costs: <p id="costUpgrade1HTML">100</p></p>
+      <p class="upgradeDescription">Increase your passive ENERGY output by 0,5 per second.</p>
+      <button onclick="upgrade1Func()">UPGRADE THE COAL REACTOR</button>
+    </div>
+    <div class="upgrade2">
+      <p class="upgradeName">Fuel reactor</p>
+      <p class="upgradeCostDescription">Costs: <p id="costUpgrade2HTML">1000<p></p>
+      <p class="upgradeDescription">Increase your passive ENERGY output by 6 per second.</p>
+      <button onclick="upgrade2Func()">UPGRADE THE FUEL REACTOR</button>
+    </div>
+  </div>
+  <div class="globalRight">
+    <div class="spritevaisseau">
+      <img src="mothership.gif"/>
+    </div>
+    <div class="buttonEnergy">
+      <div id="displayEnergy">
+      </div>
+      <div id="energyIncomeHTML">
+      </div>
+      <button id="energyButtonSkin" type="text" onclick="funcButtonEnergy()">CLICK
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
