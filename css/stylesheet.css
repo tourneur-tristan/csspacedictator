@@ -67,4 +67,33 @@ padding-top: 200px;
 padding-right: 150px;
 }
 
-.energyButtonSkin{
+button {
+  background: #e617df;
+ background-image: -webkit-linear-gradient(top, #e617df, #2980b9);
+ background-image: -moz-linear-gradient(top, #e617df, #2980b9);
+ background-image: -ms-linear-gradient(top, #e617df, #2980b9);
+ background-image: -o-linear-gradient(top, #e617df, #2980b9);
+ background-image: linear-gradient(to bottom, #e617df, #2980b9);
+ -webkit-border-radius: 0;
+ -moz-border-radius: 0;
+ border-radius: 0px;
+ text-shadow: 1px 1px 3px #541254;
+ -webkit-box-shadow: 0px 1px 3px #0a010a;
+ -moz-box-shadow: 0px 1px 3px #0a010a;
+ box-shadow: 0px 1px 3px #0a010a;
+ font-family: Arial;
+ color: #000000;
+ font-size: 14px;
+ padding: 2px 11px 3px 9px;
+ text-decoration: none;
+}
+
+button:hover {
+  background: #3cb0fd;
+   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+   background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+   background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+   text-decoration: none;
+}
